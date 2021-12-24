@@ -13,7 +13,7 @@ int linearSearch(char *arr)
 
 bool checkGame(char *arr, int input)
 {
-    if (linearSearch(arr) > 0)
+    if (linearSearch(arr) >= 0)
     {
         switch (input)
         {
